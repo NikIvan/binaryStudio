@@ -1,0 +1,19 @@
+body {
+	margin-top: 40px;
+}
+
+.row {
+	padding: 1em 0 .5em;
+}
+
+.task-done {
+	text-decoration: line-through;
+}
+
+#todo-list li.collection-item a {
+	display: none;
+}
+
+#todo-list li.collection-item:hover a {
+	display: initial;
+}
